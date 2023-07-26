@@ -11,11 +11,11 @@ Ref: https://docs.asf.alaska.edu/asf_search/basics/
 
 3) Register for an Earth Data account (it's free!)
 
-4) Add your Earth Data account credentials to your bashrc file by executing the following commands in a terminal:
-         export ASF_API_PASS=<password>
-         export ASF_API_USER=<username>
-   __Note <username> and <password> should be replaced with the Earth Data account credentials without brackets but 
-      with single quotes (‘ ‘).__
+4) Add your Earth Data account credentials to your bashrc file by executing the following commands in a terminal:      
+        export ASF_API_PASS=&lt;password>   
+         export ASF_API_USER=&lt<username>  
+   _Note &lt;username> and &lt;password> should be replaced with the Earth Data account credentials
+   without angled brackets but with single quotes (‘ ‘)._
 
 Execution:
 1) Customize the sentinel_asf_searchAPI_XXXXXX.py for desired inputs. See https://docs.asf.alaska.edu/asf_search/searching/
