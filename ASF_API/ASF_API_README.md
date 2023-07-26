@@ -6,7 +6,7 @@ Setup:
 1) Create a dedicated Anaconda environment (e.g. conda create -n asf_api python=3.7.x). As of today 10/20/2022, 
    python versions 3.7 and 3.8 are compatible; v3.10 was not. 
    
-2) Install ASF's python wrapper for its API, asf_search (conda install -c conda-forge asf_search)
+2) Install ASF's python wrapper for its API, asf_search (conda install -c conda-forge asf_search)  
 Ref: https://docs.asf.alaska.edu/asf_search/basics/ 
 
 3) Register for an Earth Data account (it's free!)
