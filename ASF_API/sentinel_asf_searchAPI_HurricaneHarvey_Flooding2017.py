@@ -4,8 +4,8 @@ import os
 import sys
 
 ## Set up output directory
-region="Harvey2017"
-parent_dir=["/data/Projects/GIFFT/" + region + "/sentinel1/"]
+region="Harvey2017" # User defined name for ROI
+parent_dir=["/data/Projects/GIFFT/sentinel1/" + region ]  # User defined output path
 download_dir = ' '.join(parent_dir)
 
 ## Get login info
