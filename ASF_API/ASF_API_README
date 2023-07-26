@@ -9,15 +9,25 @@ Setup:
 2) Install ASF's python wrapper for its API, asf_search (conda install -c conda-forge asf_search)
 Ref: https://docs.asf.alaska.edu/asf_search/basics/ 
 
+3) Register for an Earth Data account (it's free!)
+
+4) Add your Earth Data account credentials to your bashrc file by executing the following commands in a terminal:
+         export ASF_API_PASS=<password>
+         export ASF_API_USER=<username>
+   __Note <username> and <password> should be replaced with the Earth Data account credentials without brackets but 
+      with single quotes (‘ ‘).__
+
 Execution:
 1) Customize the sentinel_asf_searchAPI_XXXXXX.py for desired inputs. See https://docs.asf.alaska.edu/asf_search/searching/
    for a full list of keywords. 
    
 2) activate conda environment with asf_search library (e.g. conda activate asf_api)
 
-3) Call the script: python sentinel_adf_searchAPI_XXXXXX.py
+3) Call the script: python sentinel_asf_searchAPI_XXXXXX.py
 
 Dependencies:
-- Earth Data account (it's free)
 - asf_search library
+- Earth Data account (it's free)
+
+
 
