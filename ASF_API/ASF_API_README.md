@@ -3,6 +3,8 @@ The ASF_API contains 2 sample python scripts to pull Sentinel-1 data from the Al
 archive. The script creates a user defined directory, retrieves Earth Data login credentials from the user's 
 bachrc file, downloads the data the user defined directory, and creates a log file using the standard output. 
 
+The API example focuses on a region of Texas impacted by Hurricane Harvey - using a defined wkt polygon and start/end dates to pull GRD_HD using IW data. The API search string can be amended with other parameters for the user's desired data.  For additional information, please reference https://docs.asf.alaska.edu/api/keywords/. 
+
 ### Dependencies
 - asf_search library
 - Earth Data account (it's free)
