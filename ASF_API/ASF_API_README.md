@@ -13,8 +13,8 @@ Ref: https://docs.asf.alaska.edu/asf_search/basics/
 3) Register for an Earth Data account (it's free!)
 
 4) Add your Earth Data account credentials to your bashrc file by executing the following commands in a terminal:      
-        _(export ASF_API_PASS=&lt;password>)_   
-         export ASF_API_USER=&lt;username>  
+        _export ASF_API_PASS=&lt;password>_   
+         _export ASF_API_USER=&lt;username>_  
    _Note &lt;username> and &lt;password> should be replaced with the Earth Data account credentials
    without angled brackets but with single quotes (‘ ‘)._
 
