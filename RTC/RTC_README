@@ -17,7 +17,7 @@ Execution:
 
 Dependencies (Python):
 - geopandas
-- shapefly
+- shapely
 
 Dependencies (non-Python):
 - gdal (Geospatial Data Abstraction Library; https://gdal.org/)
